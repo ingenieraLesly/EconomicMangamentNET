@@ -7,16 +7,22 @@ donet C# Accounts
 
 ### Commands Using
 ***
-Ctrl + K, Ctrl + C,--> comentar la selección 
-Ctrl + K, Ctrl + D→para dar FORMATO
-F2 → sobre una carpeta para cambiarle el nombre
+Ctrl + K, Ctrl + C,--> comentar la selección   
+
+
+Ctrl + K, Ctrl + D→para dar FORMATO  
+
+
+F2 → sobre una carpeta para cambiarle el nombre  
 
 ### About Syntax
 ***
-NOMBRAR
-Variables: camelCase. (ojo con palabras reservadas)
-Clases: PascalCase
-Métodos: PascalCase
+NOMBRAR   
+
+
+Variables: camelCase. (ojo con palabras reservadas)  
+Clases: PascalCase  
+Métodos: PascalCase  
 
 ### Order Programing
 ***
