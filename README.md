@@ -5,7 +5,8 @@ donet C# Accounts
 2. [About Syntax](#syntax)
 3. [Oder Programming](#steps)
 
-### Commands Using
+<a name="comands"></a>
+### 1. Commands Using 
 ***
 Ctrl + K, Ctrl + C, --> comentar la selección   
 
@@ -15,7 +16,8 @@ Ctrl + K, Ctrl + D→para dar FORMATO
 
 F2 → sobre una carpeta para cambiarle el nombre  
 
-### About Syntax
+<a name="syntax"></a>
+### 2. About Syntax
 ***
 NOMBRAR   
 
@@ -23,7 +25,8 @@ NOMBRAR
 Variables: camelCase. (Ojo con palabras reservadas)  
 Clases y Métodos: PascalCase  
 
-### Order Programing
+<a name="steps"></a>
+### 3. Order Programing
 ***
 1. Create mvc (Agregar->Crear un Nuevo proyecto -->wirte mvc--> second in appear)
 2. .csproj: Nullabble-> disable
