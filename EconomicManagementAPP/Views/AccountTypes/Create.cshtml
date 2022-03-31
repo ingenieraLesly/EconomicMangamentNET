@@ -1,0 +1,22 @@
+﻿@model AccountTypes
+@{
+    //En esta vista va un formulario para ingresar el tipo de cuenta.
+    ViewData["Title"] = "Account types"; //Este es el título por que que reconoce esta vista. El título aparece en el navegador
+}
+
+<h1>Register account type</h1>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div> @*lo que llegue aquí solo va a validar los tipos de datos que estén en el model*@
+
+<form asp-action="Create">
+    @*para dar acción al botón llamado Create.*@
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input type="text" asp-for="Name" class="form-control" />@*tipo texto para que reciba el name*@
+        <span asp-validation-for="Name" class="text-danger"></span>@*para mostrar un error relacionado con el input Name*@
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+@section Scripts{@*Permite ejecutar scripts.*@
+    <partrial name="_ValidationScriptsPartrial"/>@*Permite que cualquier vista que tenga esta línea ejecute los scripts q tiene el layout(papa de htmls en .net).*@
+}
