@@ -29,7 +29,7 @@ Clases y Métodos: PascalCase
 ### 3. Order Programing
 ***
 1. Create mvc (Agregar->Crear un Nuevo proyecto -->wirte mvc--> second in appear)
-2. .csproj: Nullabble-> disable
+2. .csproj: Nullabble-> disable (to support null fields)
 3. Create Conntroller
 4. Create Model
 5. Create View -> Create Folder -->Razor --> Name: Create.cshtml
