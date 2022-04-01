@@ -39,7 +39,7 @@ Clases y Métodos: PascalCase
  -with user and password in Managament Studio= 
 
 
- "Server= nameServer; Database=nameDB;**User ID=userIngresoManagementS;Password=yourpassword**;Integrated Security=**false**" 
+ "Server= nameServer; Database=nameDB;**User ID=userLoginManagementS;Password=yourpassword**;Integrated Security=**false**" 
 
 
  -If you do not need a username and password to enter the Management Study --> (Trusted Connection) 
