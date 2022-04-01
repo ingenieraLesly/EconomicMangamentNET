@@ -30,19 +30,19 @@ Clases y Métodos: PascalCase
 ***
 1. Create mvc (Agregar->Crear un Nuevo proyecto -->wirte mvc--> second in appear)
 2. .csproj: Nullabble-> disable (to support null fields)
-3. Create Conntroller
+3. Create Controller
 4. Create Model
 5. Create View -> Create Folder -->Razor --> Name: Create.cshtml
-6. DB Conection in appsettings.Development.json -> 
+6. DB Conection in appsettings.Development.json = 
 
 
- -with user and password in Managament Studio= 
+ -with user and password in Managament Studio: 
 
 
  "Server= nameServer; Database=nameDB;**User ID=userLoginManagementS;Password=yourpassword**;Integrated Security=**false**" 
 
 
- -If you **don't** need a username and password to enter the Management Study --> (Trusted Connection) 
+ -If you **don't** need a username and password to enter the Management Study --> (Trusted Connection): 
 
 
  Server=nameServer;Database=nameDB;Integrated Security=**True** 
