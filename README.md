@@ -42,7 +42,7 @@ Clases y Métodos: PascalCase
  "Server= nameServer; Database=nameDB;**User ID=userLoginManagementS;Password=yourpassword**;Integrated Security=**false**" 
 
 
- -If you do not need a username and password to enter the Management Study --> (Trusted Connection) 
+ -If you **don't** need a username and password to enter the Management Study --> (Trusted Connection) 
 
 
  Server=nameServer;Database=nameDB;Integrated Security=**True** 
