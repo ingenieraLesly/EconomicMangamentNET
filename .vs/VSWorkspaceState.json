@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\EconomicManagementAPP",
+    "\\EconomicManagementAPP\\Controllers",
+    "\\EconomicManagementAPP\\Properties",
     "\\EconomicManagementAPP\\Views",
     "\\EconomicManagementAPP\\Views\\Home",
     "\\EconomicManagementAPP\\wwwroot"
   ],
+  "SelectedNode": "\\EconomicManagementAPP\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

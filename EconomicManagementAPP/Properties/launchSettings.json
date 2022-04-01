@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IIS Express": {
+    "IIS Express": { //tecnologia de microsoft para rápida ejecución (No es la librería express)
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {

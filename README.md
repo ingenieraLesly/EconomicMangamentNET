@@ -33,3 +33,8 @@ Clases y Métodos: PascalCase
 3. Create Conntroller
 4. Create Model
 5. Create View -> Create Folder -->Razor --> Name: Create.cshtml
+6. DB Conection in appsettings.Development.json -> 
+ -with user and password in Managament Studio= 
+ "Server= nameServer; Database=nameDB;**User ID=userIngresoManagementS;Password=yourpassword**;Integrated Security=**false**" 
+ -If you do not need a username and password to enter the Management Study --> (Trusted Connection)
+ Server=nameServer;Database=nameDB;Integrated Security=**True**
