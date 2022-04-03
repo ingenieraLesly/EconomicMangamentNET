@@ -1801,19 +1801,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Diest\\.nuget\\packages\\": {}
+    "C:\\Users\\lpaguilarr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practicas-Proyectos\\CSharp\\GIT\\EconomicManagementAPP\\EconomicManagementAPP\\EconomicManagementAPP.csproj",
+      "projectUniqueName": "C:\\Users\\lpaguilarr\\Documents\\FEDESOFT\\dotNet\\EconomicManagementAPP-main\\EconomicManagementAPP\\EconomicManagementAPP.csproj",
       "projectName": "EconomicManagementAPP",
-      "projectPath": "D:\\Practicas-Proyectos\\CSharp\\GIT\\EconomicManagementAPP\\EconomicManagementAPP\\EconomicManagementAPP.csproj",
-      "packagesPath": "C:\\Users\\Diest\\.nuget\\packages\\",
-      "outputPath": "D:\\Practicas-Proyectos\\CSharp\\GIT\\EconomicManagementAPP\\EconomicManagementAPP\\obj\\",
+      "projectPath": "C:\\Users\\lpaguilarr\\Documents\\FEDESOFT\\dotNet\\EconomicManagementAPP-main\\EconomicManagementAPP\\EconomicManagementAPP.csproj",
+      "packagesPath": "C:\\Users\\lpaguilarr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lpaguilarr\\Documents\\FEDESOFT\\dotNet\\EconomicManagementAPP-main\\EconomicManagementAPP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Diest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lpaguilarr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1870,7 +1870,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
