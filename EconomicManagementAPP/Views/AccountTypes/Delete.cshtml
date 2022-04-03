@@ -1,0 +1,13 @@
+﻿@model AccountTypes
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3 class="mb-3">¿Are you sure you want to delete the account type?: @Model.Name?</h3>
+
+<form asp-action="DeleteAccount">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+</form>

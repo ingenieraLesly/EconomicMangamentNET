@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Categories>
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h1>My Categories</h1>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Create Category</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Actions</th>
+            <th>Name</th>
+            <th>Operation Type</th>
+        </tr>
+    </thead>
+    <tbody id="reordenable">
+        @foreach (var categorie in Model)
+            if (categorie.UserId != 0)
+            {
+                {
+                    <tr>
+                        <td>
+                            <input type="hidden" value="@categorie.Id" class="ids" />
+                            <a class="btn btn-primary" asp-action="Modify" asp-route-id="@categorie.Id"><i class="bi bi-pencil-square"></i></a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@categorie.Id"><i class="bi bi-trash"></i></a>
+                        </td>
+                        <td>
+                            @categorie.Name
+                        </td>
+                        <td>
+                            @categorie.OperationType
+                        </td>
+                    </tr>
+                }
+            }
+    </tbody>
+</table>

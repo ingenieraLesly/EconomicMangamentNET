@@ -1,0 +1,40 @@
+﻿@model AccountsViewModel
+
+@{
+    ViewData["Title"] = "Modify Account";
+}
+
+<h1>Modify account: @Model.Name</h1>
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Modify">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="AccountTypeId" class="form-label"></label>
+        <select asp-for="AccountTypeId" asp-items="Model.AccountTypes" class="form-select"></select>
+        <span asp-validation-for="AccountTypeId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Balance" class="form-label"></label>
+        <input type="text" asp-for="Balance" class="form-control" />
+        <span asp-validation-for="Balance" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <input type="text" asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Modify</button>
+    <a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Cancel</a>
+</form>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}

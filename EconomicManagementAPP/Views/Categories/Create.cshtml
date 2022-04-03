@@ -1,0 +1,26 @@
+﻿@model CategoriesViewModel
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h1>Register Categorie</h1>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"> </span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="OperationTypeId" class="form-label"></label>
+        <select asp-for="OperationTypeId" asp-items="Model.OperationTypes" class="form-select"></select>
+        <span asp-validation-for="OperationTypeId" class="text-danger"> </span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"/>
+}

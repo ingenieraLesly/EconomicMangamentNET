@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "965d7cab-d75a-4c86-91bc-c2fb2c28a79b": {
+      "ProjectGuid": "965d7cab-d75a-4c86-91bc-c2fb2c28a79b",
+      "DisplayName": "EconomicManagementAPP",
+      "ColorIndex": 0
+    },
+    "d2276570-a5e0-42d2-a91b-9170c9dacc3b": {
+      "ProjectGuid": "d2276570-a5e0-42d2-a91b-9170c9dacc3b",
+      "DisplayName": "EconomicManagementAPP.Test",
+      "ColorIndex": 1
+    },
+    "ecf15806-6cb2-4666-9caa-4a58504d97da": {
+      "ProjectGuid": "ecf15806-6cb2-4666-9caa-4a58504d97da",
+      "DisplayName": "EconomicManagementTest",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

@@ -1,0 +1,46 @@
+﻿@model AccountsIndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<p class="text-danger fw-bold">Please, Make sure you have an operation type if you try to create a Account</p>
+
+<div>
+    <div class="d-flex justify-content-between">
+        <div class="d-flex">
+            <select asp-for="Accounts" asp-items="Model.Accounts" class="form-select pe-5 me-2"></select>
+            <div id="AccountActions" class="d-flex">
+            </div>
+        </div>
+        <div>
+            <a class="btn btn-success" asp-controller="Accounts" asp-action="Create">
+                <i class="bi bi-plus-circle-fill"></i>
+                <span>Add Account</span>
+            </a>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between mt-4">
+        <div class="">
+            <h3>Balance: <span id="balance" class="fw-bold">0.00</span></h3>
+        </div>
+        <a class="btn btn-info" id="createTransaction" asp-controller="Transactions" asp-action="Create">
+            <i class="bi bi-plus-circle-fill"></i>
+            <span>Add Transaction</span>
+        </a>
+    </div>
+    <div class="text-center pt-3">
+        <table class="table table-hover">
+            <thead class="table-info">
+                <tr>
+                    <th>Actions</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="transactions">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="~/js/index.js" asp-append-version="true"></script>
