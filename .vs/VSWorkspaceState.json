@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\EconomicManagementAPP",
+    "\\EconomicManagementAPP\\Controllers",
     "\\EconomicManagementAPP\\Views",
     "\\EconomicManagementAPP\\Views\\Categories"
   ],
-  "SelectedNode": "\\EconomicManagementAPP\\Views\\Categories\\Index.cshtml",
+  "SelectedNode": "\\EconomicManagementAPP\\Controllers\\UsersController.cs",
   "PreviewInSolutionExplorer": false
 }
