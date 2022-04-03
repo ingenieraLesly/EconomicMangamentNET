@@ -6,6 +6,6 @@
     "\\EconomicManagementAPP\\Views",
     "\\EconomicManagementAPP\\Views\\Categories"
   ],
-  "SelectedNode": "\\EconomicManagementAPP\\Controllers\\UsersController.cs",
+  "SelectedNode": "\\EconomicManagementAPP\\Views\\Categories\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
