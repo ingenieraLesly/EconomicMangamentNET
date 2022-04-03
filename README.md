@@ -4,6 +4,8 @@ donet C# Accounts
 1. [Commands Using](#comands)
 2. [About Syntax](#syntax)
 3. [Oder Programming](#steps)
+4. [DataBase](#results)
+5. [Interface Design](#design)
 
 <a name="comands"></a>
 ### 1. Commands Using 
@@ -46,3 +48,19 @@ Clases y Métodos: PascalCase
 
 
  Server=nameServer;Database=nameDB;Integrated Security=**True** 
+ 
+ 
+ <a name="results"></a>
+### 4. DataBase
+***
+![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/db_relation.png)
+
+
+ <a name="results"></a>
+### 5. Interface Design
+***
+some results:
+
+
+![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/Sign%20Up.png)
+
