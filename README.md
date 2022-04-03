@@ -64,3 +64,13 @@ some results:
 
 ![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/Sign%20Up.png)
 
+![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/INDEX.png)
+
+![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/RegisterCategorie.png)
+
+![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/RegisterTransaction.png)
+
+![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/RegisterAccount.png)
+
+![Image text](https://github.com/ingenieraLesly/EconomicMangamentNET/blob/img/EconomicManagementAPP/wwwroot/img/Mycategories.png)
+
